@@ -16,11 +16,11 @@ The dataset contains information about the percentages of four chemical preserva
 
 ### Variables/Columns
 
-- **A**: Percentage of preservative A in the mixture
-- **B**: Percentage of preservative B in the mixture
-- **C**: Percentage of preservative C in the mixture
-- **D**: Percentage of preservative D in the mixture
-- **Spoiled**: Label indicating whether the batch of dog food spoiled or not
+- **A**: Integer - Percentage of preservative A in the mixture
+- **B**: Integer - Percentage of preservative B in the mixture
+- **C**: Double - Percentage of preservative C in the mixture
+- **D**: Integer - Percentage of preservative D in the mixture
+- **Spoiled**: Double - Label indicating whether the batch of dog food spoiled or not
 
 ## Objective
 
@@ -46,6 +46,7 @@ The project uses the following steps:
 The model was evaluated using the feature importances, and the following results were obtained:
 
 - **Feature Importances**: The importance of each chemical preservative in predicting spoilage.
+- **Predominant Chemical**: The chemical preservative C has the greatest predictive power, indicating it is the most likely cause of early spoilage.
 
 ## Conclusion
 
@@ -55,6 +56,7 @@ The Random Forest model helps identify which chemical preservative is causing ea
 
 - `Tree_Methods_Consulting_Project.ipynb`: Jupyter notebook containing the entire project code and analysis.
 - `dog_food.csv`: Dataset used for the project.
+- `tree_methods_consulting_project.py`: Python script with cleaned project code.
 
 ## Usage
 
